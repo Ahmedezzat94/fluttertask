@@ -26,7 +26,12 @@ class CodegenLoader extends AssetLoader{
   "quick_order": "quick order",
   "you_may_like": "you may like",
   "restaurants": "restaurants",
-  "grocery": "grocery"
+  "grocery": "grocery",
+  "cook_door": "cook door",
+  "spectra": "spectra",
+  "Akeela_meal": "Akeela_meal",
+  "LE": "LE",
+  "Minute": "min"
 };
 static const Map<String,dynamic> ar = {
   "Tanta_area": "طنطا منطقة الاستاد",
@@ -40,7 +45,12 @@ static const Map<String,dynamic> ar = {
   "quick_order": "طلب سريع",
   "you_may_like": "قد يعجبك",
   "restaurants": "المطاعم",
-  "grocery": "البقالة"
+  "cook_door": "كوك دور",
+  "spectra": "اسبيكترا",
+  "grocery": "البقالة",
+  "Akeela_meal": "وجبة الاكيلة",
+  "L.E": "ج",
+  "Minute": "دقيقة"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "ar": ar};
 }

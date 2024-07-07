@@ -13,5 +13,10 @@ abstract class  LocaleKeys {
   static const you_may_like = 'you_may_like';
   static const restaurants = 'restaurants';
   static const grocery = 'grocery';
+  static const cook_door = 'cook_door';
+  static const spectra = 'spectra';
+  static const Akeela_meal = 'Akeela_meal';
+  static const LE = 'LE';
+  static const Minute = 'Minute';
 
 }

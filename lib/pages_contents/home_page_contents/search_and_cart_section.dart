@@ -29,7 +29,7 @@ class SearchAndCartSection extends StatelessWidget {
                 maxLines: 2,
                 hintText: LocaleKeys.search_for_a_meal_or_resturant.tr(),
                 hintStyle: TextStyle(
-                    fontSize: 10.sp),
+                    fontSize: 10.sp,fontFamily: "Cairo-VariableFont_slnt,wght"),
               ),
       ]
 
@@ -46,7 +46,7 @@ class SearchAndCartSection extends StatelessWidget {
               children: [
                 Icon(Icons.shopping_cart_outlined),
                 VerticalDivider(indent:8,endIndent: 8,),
-                Text('300')
+                Text('300',style:TextStyle(fontFamily: "Cairo-VariableFont_slnt,wght"),)
               ],
             ),
           )

@@ -2,6 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:project_task/pages_contents/home_page_contents/search_and_cart_section.dart';
 import 'package:project_task/pages_contents/home_page_contents/sections.dart';
+import 'package:project_task/pages_contents/home_page_contents/you_may_like.dart';
 import 'dart:ui' as ui;
 
 import '../../pages_contents/home_page_contents/home_page_head.dart';
@@ -26,13 +27,19 @@ class _MyHomePageState extends State<HomePage> {
           : ui.TextDirection.rtl,
       child: Scaffold(
         backgroundColor: Colors.white,
-       body:Column(
-         children: [
-           HomePageHead(),
-           SearchAndCartSection(),
-           SliderWidget(),
-
-         ],
+       body:SingleChildScrollView(
+         child: Column(
+           children: [
+             HomePageHead(),
+             SearchAndCartSection(),
+             SliderWidget(),
+             const Sections(),
+             const ReOrder(),
+             const MostOrdered(),
+             const YouMayLike()
+         
+           ],
+         ),
        )
       ),
     );

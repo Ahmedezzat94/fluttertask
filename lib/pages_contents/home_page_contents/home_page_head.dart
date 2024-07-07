@@ -24,7 +24,7 @@ class HomePageHead extends StatelessWidget {
               children: [
                 const Icon(Icons.location_on_outlined),
                 Text(LocaleKeys.Tanta_area.toString().tr(),style:TextStyle(
-                  fontSize:13.sp,color:Colors.black
+                  fontSize:13.sp,color:Colors.black,fontFamily: "Cairo-VariableFont_slnt,wght"
                 ),),
               ],
             ),
@@ -37,7 +37,7 @@ class HomePageHead extends StatelessWidget {
                    context.setLocale(const Locale('en'));
                  }
                }, child: Text(LocaleKeys.Change.toString().tr(),style:TextStyle(
-                 fontSize:13.sp,color:Colors.black)
+                 fontSize:13.sp,color:Colors.black,fontFamily: 'Cairo-VariableFont_slnt,wght')
                )
                )
              ],
