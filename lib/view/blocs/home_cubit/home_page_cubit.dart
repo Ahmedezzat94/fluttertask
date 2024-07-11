@@ -1,8 +1,5 @@
-import 'package:bloc/bloc.dart';
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:meta/meta.dart';
 import 'package:project_task/generated/locale_keys.g.dart';
 
 part 'home_page_state.dart';
@@ -20,14 +17,14 @@ class HomePageCubit extends Cubit<HomePageState> {
   ];
 
   List sectionNames = [
-   LocaleKeys.quick_order,
+   LocaleKeys.quickOrder,
     LocaleKeys.restaurants,
     LocaleKeys.grocery
   ];
   
   List reOrdered = [
-    LocaleKeys.hendi_restaurant,
-    LocaleKeys.quick_order
+    LocaleKeys.handyRestaurant,
+    LocaleKeys.quickOrder
   ];
 
 
@@ -42,7 +39,7 @@ class HomePageCubit extends Cubit<HomePageState> {
   ];
 
   List mostOrderedNames = [
-    LocaleKeys.cook_door,
+    LocaleKeys.cookDoor,
     LocaleKeys.spectra
   ];
   onWidgetChange(index){

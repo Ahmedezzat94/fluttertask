@@ -50,7 +50,7 @@ class Sections extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.all(17.0),
-          child: Row(children: [Text(LocaleKeys.Re_order.tr(),style: TextStyle(
+          child: Row(children: [Text(LocaleKeys.reOrder.tr(),style: TextStyle(
               fontSize: 15.sp,
               fontWeight: FontWeight.w600,
               fontFamily: 'Cairo-VariableFont_slnt,wght',color: Colors.black),)],),

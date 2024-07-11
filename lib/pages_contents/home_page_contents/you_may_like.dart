@@ -42,7 +42,7 @@ class YouMayLike extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  LocaleKeys.Akeela_meal.tr(),
+                                  LocaleKeys.akilaMeal.tr(),
                                   style: TextStyle(
                                       fontSize: 15.sp, color: Colors.black,fontFamily: "Cairo-VariableFont_slnt,wght"),
                                 ),
@@ -51,13 +51,13 @@ class YouMayLike extends StatelessWidget {
                             Row(
                               children: [
                                 Text(
-                                  '30${LocaleKeys.LE.tr()}',
+                                  '30${LocaleKeys.pound.tr()}',
                                   style: TextStyle(
                                       fontSize: 10.sp, color: Colors.orangeAccent.shade400,fontFamily:'Cairo-VariableFont_slnt,wght'),
                                 ),
                                 SizedBox(width:3.w,),
                                 Text(
-                                  '60${LocaleKeys.LE.tr()}',
+                                  '60${LocaleKeys.pound.tr()}',
                                   style: TextStyle(
                                       fontSize: 10.sp, color: Colors.grey.shade400,fontFamily:'Cairo-VariableFont_slnt,wght'),
                                 ),
@@ -77,7 +77,7 @@ class YouMayLike extends StatelessWidget {
                                   child:Image.asset('assets/images/hend_logo.webp') ,
                                 ),
                                 SizedBox(width:1.h,),
-                                Text(LocaleKeys.hendi_restaurant.tr(),style: TextStyle(fontSize:12.sp,fontFamily: "Cairo-VariableFont_slnt,wght"),),
+                                Text(LocaleKeys.handyRestaurant.tr(),style: TextStyle(fontSize:12.sp,fontFamily: "Cairo-VariableFont_slnt,wght"),),
                               ],
                             )
                           ],

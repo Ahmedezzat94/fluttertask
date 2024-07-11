@@ -73,7 +73,7 @@ class MostOrdered extends StatelessWidget {
                                   color: Colors.grey.shade400,
                                 ),
                                 Text(
-                                  "45${LocaleKeys.Minute.tr()}",
+                                  "45${LocaleKeys.minute.tr()}",
                                   style: TextStyle(color: Colors.grey.shade400,fontFamily: "Cairo-VariableFont_slnt,wght"),
                                 ),
                                 SizedBox(
@@ -91,7 +91,7 @@ class MostOrdered extends StatelessWidget {
                                   Icons.motorcycle,
                                   color: Colors.grey.shade300,
                                 ),
-                                Text('15${LocaleKeys.LE.tr()}',
+                                Text('15${LocaleKeys.pound.tr()}',
                                     style: TextStyle(color: Colors.grey.shade400,fontFamily: "Cairo-VariableFont_slnt,wght")),
                                 SizedBox(
                                   width: 1.h,
@@ -124,7 +124,7 @@ class MostOrdered extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(LocaleKeys.you_may_like.tr(),style: TextStyle(
+              Text(LocaleKeys.youMayLike.tr(),style: TextStyle(
                   fontSize: 15.sp,
                   fontWeight: FontWeight.w600,
                   fontFamily: 'Cairo-VariableFont_slnt,wght',color: Colors.black),),

@@ -15,42 +15,42 @@ class CodegenLoader extends AssetLoader{
   }
 
   static const Map<String,dynamic> en = {
-  "Tanta_area": "Tanta area",
-  "Change": "Change",
-  "search_for_a_meal_or_resturant": "search for a meal or resturant",
+  "tantArea": "Tanta area",
+  "change": "Change",
+  "searchAMealOrRestaurant": "search for a meal or restaurant",
   "sections": "sections",
-  "Re_order": "Re order",
-  "most_ordered": "most ordered",
+  "reOrder": "Re order",
+  "mostOrdered": "most ordered",
   "all": "all",
-  "hendi_restaurant": "hendi restaurant",
-  "quick_order": "quick order",
-  "you_may_like": "you may like",
+  "handyRestaurant": "hindy restaurant",
+  "quickOrder": "quick order",
+  "youMayLike": "you may like",
   "restaurants": "restaurants",
   "grocery": "grocery",
-  "cook_door": "cook door",
+  "cookDoor": "cook door",
   "spectra": "spectra",
-  "Akeela_meal": "Akeela_meal",
-  "LE": "LE",
-  "Minute": "min"
+  "akilaMeal": "Akeela_meal",
+  "pound": "LE",
+  "minute": "min"
 };
 static const Map<String,dynamic> ar = {
-  "Tanta_area": "طنطا منطقة الاستاد",
-  "Change": "تغير",
-  "search_for_a_meal_or_resturant": "ابحث عن وجبة او مطعم",
+  "tantArea": "طنطا منطقة الاستاد",
+  "change": "تغير",
+  "searchForAMealOrRestaurant": "ابحث عن وجبة او مطعم",
   "sections": "الاقسام",
-  "Re_order": "اعادة طلب",
-  "most_ordered": "الاكثر طلبا",
+  "ReOrder": "اعادة طلب",
+  "mostOrdered": "الاكثر طلبا",
   "all": "الكل",
-  "hendi_restaurant": "مطعم هندي",
-  "quick_order": "طلب سريع",
-  "you_may_like": "قد يعجبك",
+  "handyRestaurant": "مطعم هندي",
+  "quickOrder": "طلب سريع",
+  "youMayLike": "قد يعجبك",
   "restaurants": "المطاعم",
-  "cook_door": "كوك دور",
+  "cookDoor": "كوك دور",
   "spectra": "اسبيكترا",
   "grocery": "البقالة",
-  "Akeela_meal": "وجبة الاكيلة",
-  "L.E": "ج",
-  "Minute": "دقيقة"
+  "AkilaMeal": "وجبة الاكيلة",
+  "pound": "ج",
+  "minute": "دقيقة"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "ar": ar};
 }

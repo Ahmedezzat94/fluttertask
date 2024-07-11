@@ -27,7 +27,7 @@ class SearchAndCartSection extends StatelessWidget {
                 keyboardType: TextInputType.text,
                 prefixIcon:const Icon(Icons.search),
                 maxLines: 2,
-                hintText: LocaleKeys.search_for_a_meal_or_resturant.tr(),
+                hintText: LocaleKeys.searchAMealOrRestaurant.tr(),
                 hintStyle: TextStyle(
                     fontSize: 10.sp,fontFamily: "Cairo-VariableFont_slnt,wght"),
               ),

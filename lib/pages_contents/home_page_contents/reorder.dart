@@ -25,7 +25,7 @@ class ReOrder extends StatelessWidget {
                       decoration:  BoxDecoration(
                           color: Colors.white,
                           border: Border.all(color:Colors.grey.shade200),
-                          borderRadius: BorderRadius.all(Radius.circular(10))
+                          borderRadius: const BorderRadius.all(Radius.circular(10))
                       ),
                        child: Stack(
                          children: [
@@ -55,7 +55,7 @@ class ReOrder extends StatelessWidget {
                                child: Row(
                                  children: [
                                    const Icon(Icons.refresh,color: Color(0xff007a7b),),
-                                   Text(LocaleKeys.Re_order.tr(),style: TextStyle(fontSize:10.sp,color: Color(0xff007a7b)),),
+                                   Text(LocaleKeys.reOrder.tr(),style: TextStyle(fontSize:10.sp,color: const Color(0xff007a7b)),),
 
                                  ],
                                ))
@@ -79,14 +79,14 @@ class ReOrder extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-            Text(LocaleKeys.most_ordered.tr(),style: TextStyle(
+            Text(LocaleKeys.mostOrdered.tr(),style: TextStyle(
               fontSize: 15.sp,
               fontWeight: FontWeight.w600,
               fontFamily: 'Cairo-VariableFont_slnt,wght',color: Colors.black),),
             Text(LocaleKeys.all.tr(),style: TextStyle(
                 fontSize: 15.sp,
                 fontWeight: FontWeight.w600,
-                fontFamily: 'Cairo-VariableFont_slnt,wght',color: Color(0xff007a7b)),)
+                fontFamily: 'Cairo-VariableFont_slnt,wght',color: const Color(0xff007a7b)),)
 
           ],),
         )

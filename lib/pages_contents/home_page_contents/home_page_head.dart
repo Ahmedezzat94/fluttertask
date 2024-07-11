@@ -1,5 +1,4 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:project_task/generated/locale_keys.g.dart';
 import 'package:sizer/sizer.dart';
@@ -23,7 +22,7 @@ class HomePageHead extends StatelessWidget {
             Row(
               children: [
                 const Icon(Icons.location_on_outlined),
-                Text(LocaleKeys.Tanta_area.toString().tr(),style:TextStyle(
+                Text(LocaleKeys.tantArea.toString().tr(),style:TextStyle(
                   fontSize:13.sp,color:Colors.black,fontFamily: "Cairo-VariableFont_slnt,wght"
                 ),),
               ],
@@ -36,7 +35,7 @@ class HomePageHead extends StatelessWidget {
                  }else{
                    context.setLocale(const Locale('en'));
                  }
-               }, child: Text(LocaleKeys.Change.toString().tr(),style:TextStyle(
+               }, child: Text(LocaleKeys.change.toString().tr(),style:TextStyle(
                  fontSize:13.sp,color:Colors.black,fontFamily: 'Cairo-VariableFont_slnt,wght')
                )
                )
