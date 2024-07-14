@@ -3,7 +3,7 @@
   "change" : "Change",
   "searchAMealOrRestaurant" : "search for a meal or restaurant",
   "sections" : "sections",
-  "reOrder" : "Re order",
+  "ReOrder" : "Re order",
   "mostOrdered" : "most ordered",
   "all" : "all",
   "handyRestaurant" : "hindy restaurant",
@@ -13,7 +13,7 @@
   "grocery" : "grocery",
   "cookDoor" : "cook door",
   "spectra" : "spectra",
-  "akilaMeal" : "Akeela_meal",
+  "AkilaMeal" : "Akila_meal",
   "pound" : "LE",
   "minute" : "min"
 }

@@ -5,4 +5,6 @@ sealed class HomePageState {}
 
 final class HomePageInitial extends HomePageState {}
 class IntroIncrement extends HomePageState{}
+class LanguageIsArabic extends HomePageState{}
+class LanguageIsEnglish extends HomePageState{}
 
