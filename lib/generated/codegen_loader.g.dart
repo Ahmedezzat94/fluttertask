@@ -19,7 +19,7 @@ class CodegenLoader extends AssetLoader{
   "change": "Change",
   "searchAMealOrRestaurant": "search for a meal or restaurant",
   "sections": "sections",
-  "reOrder": "Re order",
+  "ReOrder": "Re order",
   "mostOrdered": "most ordered",
   "all": "all",
   "handyRestaurant": "hindy restaurant",
@@ -29,14 +29,14 @@ class CodegenLoader extends AssetLoader{
   "grocery": "grocery",
   "cookDoor": "cook door",
   "spectra": "spectra",
-  "akilaMeal": "Akeela_meal",
+  "AkilaMeal": "Akila_meal",
   "pound": "LE",
   "minute": "min"
 };
 static const Map<String,dynamic> ar = {
   "tantArea": "طنطا منطقة الاستاد",
   "change": "تغير",
-  "searchForAMealOrRestaurant": "ابحث عن وجبة او مطعم",
+  "searchAMealOrRestaurant": "ابحث عن وجبة او مطعم",
   "sections": "الاقسام",
   "ReOrder": "اعادة طلب",
   "mostOrdered": "الاكثر طلبا",

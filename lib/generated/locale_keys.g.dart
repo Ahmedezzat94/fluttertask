@@ -5,7 +5,7 @@ abstract class  LocaleKeys {
   static const change = 'change';
   static const searchAMealOrRestaurant = 'searchAMealOrRestaurant';
   static const sections = 'sections';
-  static const reOrder = 'reOrder';
+  static const ReOrder = 'ReOrder';
   static const mostOrdered = 'mostOrdered';
   static const all = 'all';
   static const handyRestaurant = 'handyRestaurant';
@@ -15,7 +15,7 @@ abstract class  LocaleKeys {
   static const grocery = 'grocery';
   static const cookDoor = 'cookDoor';
   static const spectra = 'spectra';
-  static const akilaMeal = 'akilaMeal';
+  static const AkilaMeal = 'AkilaMeal';
   static const pound = 'pound';
   static const minute = 'minute';
 

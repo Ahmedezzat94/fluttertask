@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project_task/generated/locale_keys.g.dart';
-
 part 'home_page_state.dart';
 
 class HomePageCubit extends Cubit<HomePageState> {
@@ -27,7 +27,6 @@ class HomePageCubit extends Cubit<HomePageState> {
     LocaleKeys.quickOrder
   ];
 
-
   List reOrderedImages = [
    Image.asset('assets/images/hend_logo.webp'),
     Image.asset('assets/images/fast.jpeg')
@@ -42,6 +41,17 @@ class HomePageCubit extends Cubit<HomePageState> {
     LocaleKeys.cookDoor,
     LocaleKeys.spectra
   ];
+
+  changeLanguage(context){
+    if(context.locale.toString() == 'en'){
+      context.setLocale(const Locale('ar'));
+      emit(LanguageIsArabic());
+    }else{
+      context.setLocale(const Locale('en'));
+      emit(LanguageIsEnglish());
+    }
+  }
+
   onWidgetChange(index){
     currentIndex = index;
     emit(IntroIncrement());
