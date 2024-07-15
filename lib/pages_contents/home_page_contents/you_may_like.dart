@@ -42,7 +42,7 @@ class YouMayLike extends StatelessWidget {
                               Row(
                                 children: [
                                   Text(
-                                    LocaleKeys.AkilaMeal.tr(),
+                                    LocaleKeys.akila.tr(),
                                     style: TextStyle(
                                         fontSize: 15.sp, color: Colors.black,fontFamily: "Cairo-VariableFont_slnt,wght"),
                                   ),

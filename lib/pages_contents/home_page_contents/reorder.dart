@@ -55,7 +55,7 @@ class ReOrder extends StatelessWidget {
                                  child: Row(
                                    children: [
                                      const Icon(Icons.refresh,color: Color(0xff007a7b),),
-                                     Text(LocaleKeys.ReOrder.tr(),style: TextStyle(fontSize:10.sp,color: const Color(0xff007a7b)),),
+                                     Text(LocaleKeys.Reorder.tr(),style: TextStyle(fontSize:10.sp,color: const Color(0xff007a7b)),),
 
                                    ],
                                  ))

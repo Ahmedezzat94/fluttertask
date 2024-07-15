@@ -19,7 +19,7 @@ class CodegenLoader extends AssetLoader{
   "change": "Change",
   "searchAMealOrRestaurant": "search for a meal or restaurant",
   "sections": "sections",
-  "ReOrder": "Re order",
+  "Reorder": "Reorder",
   "mostOrdered": "most ordered",
   "all": "all",
   "handyRestaurant": "hindy restaurant",
@@ -29,7 +29,7 @@ class CodegenLoader extends AssetLoader{
   "grocery": "grocery",
   "cookDoor": "cook door",
   "spectra": "spectra",
-  "AkilaMeal": "Akila_meal",
+  "akila": "Akila_meal",
   "pound": "LE",
   "minute": "min"
 };
@@ -38,7 +38,7 @@ static const Map<String,dynamic> ar = {
   "change": "تغير",
   "searchAMealOrRestaurant": "ابحث عن وجبة او مطعم",
   "sections": "الاقسام",
-  "ReOrder": "اعادة طلب",
+  "Reorder": "اعادة طلب",
   "mostOrdered": "الاكثر طلبا",
   "all": "الكل",
   "handyRestaurant": "مطعم هندي",
@@ -48,7 +48,7 @@ static const Map<String,dynamic> ar = {
   "cookDoor": "كوك دور",
   "spectra": "اسبيكترا",
   "grocery": "البقالة",
-  "AkilaMeal": "وجبة الاكيلة",
+  "akila": "وجبة الاكيلة",
   "pound": "ج",
   "minute": "دقيقة"
 };

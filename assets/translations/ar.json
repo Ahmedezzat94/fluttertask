@@ -3,7 +3,7 @@
   "change" : "تغير",
   "searchAMealOrRestaurant" : "ابحث عن وجبة او مطعم",
   "sections" : "الاقسام",
-  "ReOrder" : "اعادة طلب",
+  "Reorder" : "اعادة طلب",
   "mostOrdered" : "الاكثر طلبا",
   "all" : "الكل",
   "handyRestaurant" : "مطعم هندي",
@@ -13,7 +13,7 @@
   "cookDoor" : "كوك دور",
   "spectra" : "اسبيكترا",
   "grocery" : "البقالة",
-  "AkilaMeal" : "وجبة الاكيلة",
+  "akila" : "وجبة الاكيلة",
   "pound" : "ج",
   "minute" : "دقيقة"
 }
