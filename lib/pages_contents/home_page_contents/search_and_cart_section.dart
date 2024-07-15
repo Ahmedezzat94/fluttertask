@@ -11,11 +11,7 @@ class SearchAndCartSection extends StatelessWidget {
  final TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return Directionality(
-      textDirection: context.locale.toString() == 'ar'?
-      ui.TextDirection.rtl
-          :ui.TextDirection.ltr,
-      child: Padding(
+    return Padding(
         padding:  EdgeInsets.only(right: 3.w),
         child: Row(
           children: [
@@ -58,7 +54,7 @@ class SearchAndCartSection extends StatelessWidget {
             )
           ],
         ),
-      ),
-    );
+      );
+
   }
 }
